@@ -9,8 +9,11 @@ drawImage can be called with either 3, 5, or 9 parameters. So it has 3 signature
 
 Syntax
 void ctx.drawImage(image, dx, dy);
+
 void ctx.drawImage(image, dx, dy, dWidth, dHeight);
+
 void ctx.drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight);
+
 
 
 
