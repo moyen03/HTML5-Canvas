@@ -1,18 +1,23 @@
 # HTML5-Canvas
 
+CanvasRenderingContext2D.drawImage();
+
+=========
+
 drawImage has three signatures for drawing in a Canvas object. The link above lists how to use each.
 
 Signature in this context means a specific function call with a number of parameters.
 
 drawImage can be called with either 3, 5, or 9 parameters. So it has 3 signatures.
 
+===========
 
 Syntax
 void ctx.drawImage(image, dx, dy);
 void ctx.drawImage(image, dx, dy, dWidth, dHeight);
 void ctx.drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight);
 
-
+===========
 
 Parameters
 
