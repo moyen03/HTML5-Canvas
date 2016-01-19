@@ -6,6 +6,7 @@ Signature in this context means a specific function call with a number of parame
 
 drawImage can be called with either 3, 5, or 9 parameters. So it has 3 signatures.
 
+===================
 
 Syntax
 void ctx.drawImage(image, dx, dy);
@@ -14,7 +15,7 @@ void ctx.drawImage(image, dx, dy, dWidth, dHeight);
 
 void ctx.drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight);
 
-
+===================
 
 
 Parameters
