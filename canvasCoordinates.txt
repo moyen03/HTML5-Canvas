@@ -1,0 +1,35 @@
+Canvas Coordinates:
+
+The HTML canvas is a two-dimensional grid. 
+The upper-left corner of the canvas has the coordinates (0,0)
+In the canvasCoordinates.txt, We saw the method used: fillRect(0,0,200,100).
+Means: Start at the upper-left corner (0,0) and draw a 200x100 pixels rectangle.
+
+Draw a Line
+
+To draw a straight line on a canvas, use the following methods:
+moveTo(x,y) - defines the starting point of the line
+lineTo(x,y) - defines the ending point of the line
+To draw a line, We must use one of the "ink" methods, like stroke().
+
+for example: 
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.moveTo(0,0);
+ctx.lineTo(200,100);
+ctx.stroke();
+
+With a starting point in position (0,0), and an ending point in position (200,100). Then use the stroke() method to actually draw the line.
+
+Draw a Circle
+
+To draw a circle on a canvas, use the following methods:
+beginPath();
+arc(x,y,r,start,stop)
+
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.beginPath();
+ctx.arc(95,50,40,0,2*Math.PI);
+ctx.stroke();
+Where a circle with the arc() method. Then use the stroke() method to draw the circle.
