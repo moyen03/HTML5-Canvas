@@ -1,0 +1,28 @@
+//Draw on the Canvas With JavaScript
+
+For drawing on the HTML canvas, we have to do with JavaScript:
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = ('green');
+ctx.fillRect(0,0,200,100);
+</script>
+
+
+Step 1: First find the Canvas Element , <canvas>
+
+var canvas = document.getElementById("myCanvas");
+
+Step 2: Drawing Object by getContext() is a built-in HTML object
+
+var ctx = canvas.getContext("2d");
+
+Step 3: Draw on the Canvas with fillStyle drawing object 
+which will be a css color, a pattern, agradient.But the default is black
+
+ctx.fillStyle = ('green');
+
+fillRect(x,y,width,height) method draws a rectangle, filled with the fill style, on the canvas:
+
+ctx.fillRect(0,0,200,100);
