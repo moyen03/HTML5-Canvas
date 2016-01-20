@@ -1,5 +1,5 @@
 # HTML5-Canvas
 
 
-http://diveintohtml5.info/canvas.html
+cool info: http://diveintohtml5.info/canvas.html
 
